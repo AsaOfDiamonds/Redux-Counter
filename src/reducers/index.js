@@ -14,6 +14,6 @@ export default (count = 0, action) => {
     case DECREMENT:
       return --count;
     default:
-      return count;
+      return count
   }
 };
